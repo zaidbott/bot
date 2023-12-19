@@ -29,14 +29,14 @@ from pyrogram import (
 
 #حقوق احمد @H1HHIH - @ELHYBA
 # تطوير مودي الهيبه اذا ما ذكرت مصدر بنحكح امك @ELHYBA - @SOURCE_ZE 
-ownerID = int("6581896306") #ايدي الادمن 
+ownerID = int("6664210824") #ايدي الادمن 
 api_hash = Config.API_HASH #ايبي هاش 
 api_id = Config.APP_ID #ايبي ايدي
 token = Config.TG_BOT_TOKEN #البوت
 
 
 bot = Client(
-  'bot'+token.split("6723249685:AAHEfoaWmsTUZIN6DIvETJW_O0IrI9sOg2E")[0],
+  'bot'+token.split(":")[0],
   27570053, #ايبي ايدي
  '46b847de1400a4f47541a90433b1af13', #ايبي هاش
   bot_token=token, in_memory=True
